@@ -3,7 +3,6 @@ const fs = require("node:fs");
 const morgan = require("morgan");
 const tourRouter = require("./routes/tours");
 
-const PORT = 3000;
 const app = express();
 
 // middlewares
@@ -16,8 +15,8 @@ app.use((req, res, next) => {
   next();
 });
 
+// Routes
 app.use("/api/v1/tours", tourRouter);
 
-app.listen(PORT, () => {
-  console.log(`App running on PORT: ${PORT}`);
-});
+// server start
+module.exports = app;

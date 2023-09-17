@@ -1,6 +1,18 @@
 const fs = require("node:fs");
 const tours = JSON.parse(fs.readFileSync("./dev-data/tours.json"));
 
+// middleware
+exports.checkId = (req, res, next, id) => {
+  if (id >= tours.length) {
+    return res.status(404).json({
+      status: "failure",
+      message: `Tour with id: ${id} does not exist`,
+    });
+  }
+  next();
+};
+
+// Route Handlers
 exports.getAllTours = (req, res) => {
   res.status(200).json({
     status: "success",
@@ -13,17 +25,10 @@ exports.getAllTours = (req, res) => {
 
 exports.getTour = (req, res) => {
   const tourID = req.params.id;
-  if (tourID < tours.length) {
-    res.status(200).json({
-      status: "success",
-      data: tours[tourID],
-    });
-  } else {
-    res.status(404).json({
-      status: "failure",
-      message: `Tour with id: ${tourID} does not exist`,
-    });
-  }
+  res.status(200).json({
+    status: "success",
+    data: tours[tourID],
+  });
 };
 
 exports.createTour = (req, res) => {

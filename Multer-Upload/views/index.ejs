@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Card</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+
+      .profile-card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .profile-card h1 {
+        font-size: 32px;
+        margin-top: 0;
+      }
+
+      .profile-card img {
+        max-width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .profile-card input[type="file"] {
+        display: none;
+      }
+
+      .profile-card label,
+      .submit-button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        display: inline-block;
+        transition: all 0.3s ease;
+      }
+
+      .profile-card label:hover {
+        background-color: #3e8e41;
+      }
+
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <h1>John Doe</h1>
+      <img
+        src="<%= typeof filename === 'undefined' ? ' ' : filename %>"
+        alt="Profile Picture"
+        id="profile-picture"
+      />
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="porfilepic" id="file-input" />
+        <label for="file-input">Upload Photo</label>
+        <p class="error">
+          <%= typeof message === 'undefined' ? ' ': message %>
+        </p>
+        <button class="submit-button" type="submit">Submit</button>
+      </form>
+      <p>Software Engineer</p>
+      <p>john.doe@gmail.com</p>
+    </div>
+  </body>
+</html>

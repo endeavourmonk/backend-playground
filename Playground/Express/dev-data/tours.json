@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "name": "Amazing Adventure Tour",
+    "duration": 7,
+    "maxGroupSize": 12,
+    "difficulty": "Moderate",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 35,
+    "price": 1299,
+    "summary": "Experience an amazing adventure in breathtaking locations.",
+    "description": "This tour takes you on a thrilling adventure to explore stunning landscapes and immerse in local cultures.",
+    "imageCover": "amazing-adventure.jpg",
+    "images": ["image1.jpg", "image2.jpg", "image3.jpg"],
+    "startDates": ["2023-05-15", "2023-06-01", "2023-07-10"]
+  },
+  {
+    "id": 1,
+    "name": "Cultural Exploration Tour",
+    "duration": 10,
+    "maxGroupSize": 15,
+    "difficulty": "Easy",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 28,
+    "price": "$1499",
+    "summary": "Discover the rich cultural heritage of diverse destinations.",
+    "description": "Embark on a journey of cultural exploration, visiting historic sites and engaging with local traditions.",
+    "imageCover": "cultural-exploration.jpg",
+    "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+    "startDates": ["2023-04-20", "2023-07-05", "2023-09-18"]
+  },
+  {
+    "id": 2,
+    "name": "Adventure Seeker Tour",
+    "duration": 8,
+    "maxGroupSize": 20,
+    "difficulty": "Moderate",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 32,
+    "price": "$1299",
+    "summary": "Embark on an adventure of a lifetime in stunning natural landscapes.",
+    "description": "Join us for an exhilarating journey through breathtaking scenery, thrilling activities, and unforgettable experiences.",
+    "imageCover": "adventure-seeker.jpg",
+    "images": ["image7.jpg", "image8.jpg", "image9.jpg"],
+    "startDates": ["2023-06-15", "2023-08-10", "2023-10-25"]
+  }
+]

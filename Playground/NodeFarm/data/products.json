@@ -1,0 +1,146 @@
+[
+    {
+      "id": 0,
+      "productName": "Organic Apples",
+      "image": "https://t4.ftcdn.net/jpg/00/59/96/75/360_F_59967553_9g2bvhTZf18zCmEVWcKigEoevGzFqXzq.jpg",
+      "from": "Local Farm",
+      "nutrients": {
+        "calories": 52,
+        "carbohydrates": 14,
+        "fiber": 2.4,
+        "vitaminC": 14,
+        "potassium": 107
+      },
+      "organic": true,
+      "price": 2.99,
+      "description": "Fresh, organic apples from a local farm. A delicious and healthy snack."
+    },
+    {
+      "id": 1,
+      "productName": "Salmon Fillet",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUrnC2Dn5fiPUvB-enk6o4eGU8fudlTUnnWbx3S6lD6pVSiT9kMO29iuwAeHG8bEhiFCU&usqp=CAU",
+      "from": "Fish Market",
+      "nutrients": {
+        "calories": 367,
+        "protein": 39,
+        "omega3": 2.5,
+        "vitaminD": 570,
+        "selenium": 27
+      },
+      "organic": false,
+      "price": 12.99,
+      "description": "Fresh salmon fillet, rich in protein and omega-3 fatty acids. Perfect for grilling or baking."
+    },
+    {
+      "id": 2,
+      "productName": "Spinach",
+      "image": "https://m.media-amazon.com/images/I/51T3025eGcL.jpg",
+      "from": "Organic Farm",
+      "nutrients": {
+        "calories": 7,
+        "carbohydrates": 1.1,
+        "fiber": 0.7,
+        "vitaminA": 188,
+        "iron": 0.8
+      },
+      "organic": true,
+      "price": 3.49,
+      "description": "Fresh, organic spinach leaves. Packed with vitamins and minerals, perfect for salads and smoothies."
+    },
+    {
+      "id": 3,
+      "productName": "Broccoli",
+      "image": "https://m.media-amazon.com/images/I/81dOnK2fB+L._AC_UF1000,1000_QL80_.jpg",
+      "from": "Local Farm",
+      "nutrients": {
+        "calories": 55,
+        "carbohydrates": 11.2,
+        "fiber": 5.1,
+        "vitaminC": 89,
+        "vitaminK": 92
+      },
+      "organic": true,
+      "price": 2.99,
+      "description": "Fresh, organic broccoli. A great source of vitamins and fiber."
+    },
+    {
+      "id": 4,
+      "productName": "Carrots",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIYYFK5jlXqN8za2ZobDPn7hS4hVd8Ufeba4hsvMK9fnSjoy8swClkV2WKpXVWpWgEW94&usqp=CAU",
+      "from": "Local Farm",
+      "nutrients": {
+        "calories": 41,
+        "carbohydrates": 10,
+        "fiber": 2.8,
+        "vitaminA": 334,
+        "vitaminK": 13
+      },
+      "organic": true,
+      "price": 1.99,
+      "description": "Fresh, organic carrots. A healthy and crunchy snack."
+    },
+    {
+      "id": 5,
+      "productName": "Strawberries",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/HbjgFTByNBHi4ylALyGYvxr7_5E=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/39/3c/393c51d9-ce11-49ce-9d41-5ef599dfabea/bn8e34.jpg",
+      "from": "Local Farm",
+      "nutrients": {
+        "calories": 32,
+        "carbohydrates": 7.7,
+        "fiber": 2,
+        "vitaminC": 59,
+        "antioxidants": "High"
+      },
+      "organic": true,
+      "price": 4.99,
+      "description": "Fresh, organic strawberries. Bursting with flavor and vitamins."
+    },
+    {
+      "id": 6,
+      "productName": "Tomatoes",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg",
+      "from": "Local Farm",
+      "nutrients": {
+        "calories": 18,
+        "carbohydrates": 3.9,
+        "fiber": 1.2,
+        "vitaminC": 23,
+        "vitaminK": 8
+      },
+      "organic": true,
+      "price": 2.49,
+      "description": "Fresh, organic tomatoes. Perfect for salads and sandwiches."
+    },
+    {
+      "id": 7,
+      "productName": "Kale",
+      "image": "https://i0.wp.com/www.efarm.com.my/wp-content/uploads/2021/03/curly-kale.png?fit=600%2C547&ssl=1",
+      "from": "Organic Farm",
+      "nutrients": {
+        "calories": 33,
+        "carbohydrates": 6.7,
+        "fiber": 1.3,
+        "vitaminA": 206,
+        "vitaminK": 684
+      },
+      "organic": true,
+      "price": 3.99,
+      "description": "Fresh, organic kale leaves. A superfood packed with nutrients."
+    },
+    {
+      "id": 8,
+      "productName": "Oranges",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV-RG43lXJLdR5IBAqL5s68iWLwdpkZmVOUA&usqp=CAU",
+      "from": "Local Farm",
+      "nutrients": {
+        "calories": 43,
+        "carbohydrates": 8.2,
+        "fiber": 2.4,
+        "vitaminC": 89,
+        "vitaminA": 6
+      },
+      "organic": true,
+      "price": 2.79,
+      "description": "Fresh, organic oranges. A juicy and vitamin-rich citrus fruit."
+    }
+  ]

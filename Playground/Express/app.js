@@ -1,6 +1,4 @@
 const express = require("express");
-const { isUtf8 } = require("node:buffer");
-const exp = require("node:constants");
 const fs = require("node:fs");
 const morgan = require("morgan");
 
@@ -60,8 +58,11 @@ app.use((req, res, next) => {
   next();
 });
 
-app.route("/api/v1/tours").get(getAllTours).post(createTour);
-app.route("/api/v1/tours/:id").get(getTour);
+const tourRouter = express.Router();
+app.use("/api/v1/tours", tourRouter);
+
+tourRouter.route("/").get(getAllTours).post(createTour);
+tourRouter.route("/:id").get(getTour);
 
 app.listen(PORT, () => {
   console.log(`App running on PORT: ${PORT}`);

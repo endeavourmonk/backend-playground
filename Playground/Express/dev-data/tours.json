@@ -43,5 +43,20 @@
     "imageCover": "adventure-seeker.jpg",
     "images": ["image7.jpg", "image8.jpg", "image9.jpg"],
     "startDates": ["2023-06-15", "2023-08-10", "2023-10-25"]
+  },
+  {
+    "id": 3,
+    "name": "Epic Mountain Expedition",
+    "duration": 10,
+    "maxGroupSize": 8,
+    "difficulty": "Challenging",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 45,
+    "price": 1699,
+    "summary": "Embark on an epic mountain expedition through rugged terrains.",
+    "description": "This expedition offers you the chance to conquer some of the world's most challenging peaks and experience the thrill of high-altitude mountaineering.",
+    "imageCover": "mountain-expedition.jpg",
+    "images": ["image4.jpg", "image5.jpg", "image6.jpg"],
+    "startDates": ["2023-08-20", "2023-09-05", "2023-10-15"]
   }
 ]

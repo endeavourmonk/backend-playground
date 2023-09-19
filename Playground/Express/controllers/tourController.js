@@ -2,6 +2,17 @@ const fs = require("node:fs");
 const tours = JSON.parse(fs.readFileSync("./dev-data/tours.json"));
 
 // middleware
+exports.checkBody = (req, res, next) => {
+  const data = req.body;
+  if (data.name && data.price && data.description && data.startDates) {
+    next();
+  } else {
+    res.status(400).json({
+      message: "Missig Details (name, price, description, start dates)",
+    });
+  }
+};
+
 exports.checkId = (req, res, next, id) => {
   if (id >= tours.length) {
     return res.status(404).json({

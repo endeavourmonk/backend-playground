@@ -1,2 +1,6 @@
-const express = require("express");
-const fs = require("node:fs");
+const express = require('express');
+
+const router = express.Router();
+
+// router.route('/').get(getAllUsers);
+module.exports = router;
